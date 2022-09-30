@@ -16,6 +16,8 @@
 		B707E09228E722AD0056A0D6 /* AZkarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E09028E722AD0056A0D6 /* AZkarVC.swift */; };
 		B707E09328E722AD0056A0D6 /* AZkarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B707E09128E722AD0056A0D6 /* AZkarVC.xib */; };
 		B707E09D28E723A40056A0D6 /* AZkarScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E09C28E723A40056A0D6 /* AZkarScreenRouter.swift */; };
+		B707E0A228E725280056A0D6 /* AzkarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E0A128E725280056A0D6 /* AzkarModel.swift */; };
+		B707E0A428E7253D0056A0D6 /* PrayTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E0A328E7253D0056A0D6 /* PrayTimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		B707E09128E722AD0056A0D6 /* AZkarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AZkarVC.xib; sourceTree = "<group>"; };
 		B707E09C28E723A40056A0D6 /* AZkarScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZkarScreenRouter.swift; sourceTree = "<group>"; };
 		B707E0A028E724650056A0D6 /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; };
+		B707E0A128E725280056A0D6 /* AzkarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarModel.swift; sourceTree = "<group>"; };
+		B707E0A328E7253D0056A0D6 /* PrayTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayTimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		B707E09828E7237E0056A0D6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B707E0A128E725280056A0D6 /* AzkarModel.swift */,
+				B707E0A328E7253D0056A0D6 /* PrayTimeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,9 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B707E0A428E7253D0056A0D6 /* PrayTimeModel.swift in Sources */,
 				B707E09D28E723A40056A0D6 /* AZkarScreenRouter.swift in Sources */,
 				B707E07F28E722360056A0D6 /* ViewController.swift in Sources */,
 				B707E07B28E722360056A0D6 /* AppDelegate.swift in Sources */,
+				B707E0A228E725280056A0D6 /* AzkarModel.swift in Sources */,
 				B707E09228E722AD0056A0D6 /* AZkarVC.swift in Sources */,
 				B707E07D28E722360056A0D6 /* SceneDelegate.swift in Sources */,
 			);
