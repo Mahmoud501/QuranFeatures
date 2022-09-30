@@ -13,6 +13,9 @@
 		B707E08228E722360056A0D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B707E08028E722360056A0D6 /* Main.storyboard */; };
 		B707E08428E722370056A0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B707E08328E722370056A0D6 /* Assets.xcassets */; };
 		B707E08728E722370056A0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B707E08528E722370056A0D6 /* LaunchScreen.storyboard */; };
+		B707E09228E722AD0056A0D6 /* AZkarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E09028E722AD0056A0D6 /* AZkarVC.swift */; };
+		B707E09328E722AD0056A0D6 /* AZkarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B707E09128E722AD0056A0D6 /* AZkarVC.xib */; };
+		B707E09D28E723A40056A0D6 /* AZkarScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707E09C28E723A40056A0D6 /* AZkarScreenRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,10 @@
 		B707E08328E722370056A0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B707E08628E722370056A0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B707E08828E722370056A0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B707E09028E722AD0056A0D6 /* AZkarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZkarVC.swift; sourceTree = "<group>"; };
+		B707E09128E722AD0056A0D6 /* AZkarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AZkarVC.xib; sourceTree = "<group>"; };
+		B707E09C28E723A40056A0D6 /* AZkarScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZkarScreenRouter.swift; sourceTree = "<group>"; };
+		B707E0A028E724650056A0D6 /* ReadME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadME.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,11 @@
 		B707E07928E722360056A0D6 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B707E0A028E724650056A0D6 /* ReadME.md */,
+				B707E09828E7237E0056A0D6 /* Model */,
+				B707E09428E722BB0056A0D6 /* Helper */,
+				B707E09528E722F40056A0D6 /* PrayTimes */,
+				B707E08E28E7223E0056A0D6 /* AZkar */,
 				B707E07A28E722360056A0D6 /* AppDelegate.swift */,
 				B707E07C28E722360056A0D6 /* SceneDelegate.swift */,
 				B707E07E28E722360056A0D6 /* ViewController.swift */,
@@ -65,6 +77,77 @@
 				B707E08828E722370056A0D6 /* Info.plist */,
 			);
 			path = TestApp;
+			sourceTree = "<group>";
+		};
+		B707E08E28E7223E0056A0D6 /* AZkar */ = {
+			isa = PBXGroup;
+			children = (
+				B707E08F28E7227D0056A0D6 /* AZkarScreen */,
+			);
+			path = AZkar;
+			sourceTree = "<group>";
+		};
+		B707E08F28E7227D0056A0D6 /* AZkarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B707E09728E723780056A0D6 /* View */,
+				B707E09928E723840056A0D6 /* Controller */,
+				B707E09B28E723960056A0D6 /* Router */,
+			);
+			path = AZkarScreen;
+			sourceTree = "<group>";
+		};
+		B707E09428E722BB0056A0D6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B707E09528E722F40056A0D6 /* PrayTimes */ = {
+			isa = PBXGroup;
+			children = (
+				B707E09628E722FC0056A0D6 /* PrayTimesScreen */,
+			);
+			path = PrayTimes;
+			sourceTree = "<group>";
+		};
+		B707E09628E722FC0056A0D6 /* PrayTimesScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PrayTimesScreen;
+			sourceTree = "<group>";
+		};
+		B707E09728E723780056A0D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B707E09028E722AD0056A0D6 /* AZkarVC.swift */,
+				B707E09128E722AD0056A0D6 /* AZkarVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B707E09828E7237E0056A0D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B707E09928E723840056A0D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B707E09B28E723960056A0D6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B707E09C28E723A40056A0D6 /* AZkarScreenRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +210,7 @@
 			files = (
 				B707E08728E722370056A0D6 /* LaunchScreen.storyboard in Resources */,
 				B707E08428E722370056A0D6 /* Assets.xcassets in Resources */,
+				B707E09328E722AD0056A0D6 /* AZkarVC.xib in Resources */,
 				B707E08228E722360056A0D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B707E09D28E723A40056A0D6 /* AZkarScreenRouter.swift in Sources */,
 				B707E07F28E722360056A0D6 /* ViewController.swift in Sources */,
 				B707E07B28E722360056A0D6 /* AppDelegate.swift in Sources */,
+				B707E09228E722AD0056A0D6 /* AZkarVC.swift in Sources */,
 				B707E07D28E722360056A0D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

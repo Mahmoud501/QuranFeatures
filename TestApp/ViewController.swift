@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    func clickedButton() {
+        let vc = AZkarScreenRouter.createVC()
+        self.present(vc, animated: true)
+    }
 }
 
